@@ -52,9 +52,6 @@
 
 /* tablet layout */
 @media screen and (max-width: 1100px){
-  #app {
-    font-size: 3em;
-  }
 
   #middle {
     flex-direction: column;
@@ -63,15 +60,16 @@
 
   #main {
     width: 100%;
+    flex-grow: 1;
   }
 
   #nav {
     width: 100%;
-    align-self: flex-start;
   }
 
   #articles {
     width: 50%;
+
   }
 
   #ads {
@@ -81,7 +79,6 @@
 
 @media screen and (max-width: 700px){
   #app {
-    font-size: 3em;
     flex-direction: column;
   }
 
@@ -95,6 +92,7 @@
 
   #articles {
     width: 100%;
+    flex-grow: 1;
   }
 
   #ads {
